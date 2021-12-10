@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="C:/Users/peppi/OneDrive/Kuvat/favicon.ico.png">
+        <link rel="stylesheet" href="C:/Users/peppi/OneDrive/Työpöytä/VSC-harjotukset/html-table/styletable.css">
+  <title>Koodipöytä</title>
+        <body>
+  <script>
+    function myFunction() {
+   alert("Woo! Correct answer: they're all your favourites!");
+ }
+         </script>
+<table class="pets">
+  <caption>Animals that have lived in my house rent-free</caption>
+  <tr>
+    <th class="Who">Who?</th>
+    <th class="what">What?</th>
+    <th class="misc">Misc</th>
+  </tr>
+  <tr>
+    <td class="Who">Mõmmik</td>
+    <td class="what">Dog / rescue</td>
+    <td class="misc">intruder alarm with &#10024; <i>anxiety</i>&#10024;</td>
+  </tr>
+  <tr>
+    <td class="Who">Eduardo</td>
+    <td class="what">Cat / rescue</td>
+    <td class="misc">Probably Satan</td>
+  </tr>
+  <tr>
+    <td class="Who">Tosca Puccini</td>
+    <td class="what">Dog / poodle</td>
+    <td class="misc">Had one eye and it was blind</td>
+  </tr>
+  <tr>
+    <td class="Who">Väinö</td>
+    <td class="what">Lizard / iguana</td>
+    <td class="misc">Turned out he was a she</td>
+  </tr>
+  <tr>
+    <td class="Who">Siili</td>
+    <td class="what">Hedgehog</td>
+    <td class="misc">Addicted to washing powder</td>
+  </tr>
+  <tr>
+    <td class="Who">Elli</td>
+    <td class="what">Giant African snail</td>
+    <td class="misc">Mom <i>accidentally</i> yeeted her to heaven &#10015;</td>
+  </tr>
+  <tr>
+    <td class="Who">Jojju</td>
+    <td class="what">Hamster</td>
+    <td class="misc">Ate her sisters ear</td>
+  </tr> 
+  <tr>
+    <td class="Who">Muru</td>
+    <td class="what">Hamster</td>
+    <td class="misc">Lost her ear</td>
+  </tr>
+  <tr>
+    <td class="Who">Niki</td>
+    <td class="what">Cat / garfield probably</td>
+    <td class="misc">Ate <b>everything</b></td>
+  </tr>
+  <tr>
+    <td class="Who">Misu</td>
+    <td class="what">Cat</td>
+    <td class="misc">Slept on my butt every night</td>
+  </tr>
+  <tr>
+    <td class="Who">Mondi</td>
+    <td class="what">Dog / dalmatian</td>
+    <td class="misc">Pooped against the walls to make art</td>
+  </tr>
+  <tr>
+    <td class="Who">Miinus</td>
+    <td class="what">Dog / golden retriever</td>
+    <td class="misc">Was a sweetheart</td>
+  </tr>
+  <tr>
+    <td class="Who">Lisa</td>
+    <td class="what">Dog / stray</td>
+    <td class="misc">From the streets of Hurghada, Egypt*</td>
+  </tr>
+
+</table>
+
+<p>*I adopted Lisa and found her a forever-home as an only child of an older, insanely rich lady looking to carry a tiny dog everywhere in her purse. Lisa loves being a spoiled trophy-pup.</p>
+<br/>
+<div>
+  <form>
+    <label for="pets">Who's your favourite?</label>
+    <select id="pets" name="pets">
+      <option value="mommik">Mõmmik</option>
+      <option value="eetu">Eduardo</option>
+      <option value="tosca">Tosca Puccini</option>
+      <option value="vaino">Väinö</option>
+      <option value="siili">Siili</option>
+      <option value="elli">Elli</option>
+      <option value="jojju">Jojju</option>
+      <option value="muru">Muru</option>
+      <option value="niki">Niki</option>
+      <option value="misu">Misu</option>
+      <option value="mondi">Mondi</option>
+      <option value="miinus">Miinus</option>
+      <option value="lisa">Lisa</option>
+    </select>
+    <input type="button" class="alert-button" value="Submit" onclick="myFunction()">
+  </form>
+</div>
+<br/>
+<div>
+  <form action="https://peppiruokonen.w3spaces.com/images/muru.png">
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="firstname" placeholder="&#9998; required" required>
+
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lastname" placeholder="&#9998; required" required>
+
+    <label for="lname">Mail</label>
+    <input type="text" id="email" name="email" placeholder="&#9993; optional">
+
+    <label for="secret">Need to vent?</label><br/>
+    <textarea id="secret" name="secret" rows="4" cols="80" placeholder="Type anything.."></textarea>
+<br/>
+    <input type="checkbox" id="boksi1" name="boksi1" value="">
+  <label for="boksi1"> I like ladybugs</label>
+  <input type="checkbox" id="boksi2" name="boksi2" value="Car">
+  <label for="boksi2"> I like birds</label>
+  <input type="checkbox" id="boksi3" name="boksi3" value="Boat">
+  <label for="boksi3"> I like dolphins</label><br/><br/>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
